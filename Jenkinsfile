@@ -6,11 +6,7 @@ pipeline {
   stages {
     stage('Semgrep-Scan'){
       steps{
-        bat '''docker pull returtocorp/semgrep && \
-        docker run \
-        -e SEMGREP_APP_TOKEN=$SEMGREP_APP_TOKEN \
-        -v "$(pwd):$(pwd)" --workdir $(pwd) \
-        returntocorp/semgrep semgrep ci '''
+        bat '''semgrep ci '''
       }
     }
   }
