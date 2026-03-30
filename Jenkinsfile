@@ -6,10 +6,8 @@ pipeline {
   stages {
     stage('Semgrep-Scan'){
       steps{
-        powershell '"C:\\Users\\vaibh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\semgrep.exe" ci'
+        powershell '& "C:\\Users\\vaibh\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\semgrep.exe" ci'
       }
     }
   }
 }
-        
-        
