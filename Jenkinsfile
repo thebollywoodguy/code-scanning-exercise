@@ -6,7 +6,7 @@ pipeline {
   stages {
     stage('Semgrep-Scan'){
       steps{
-        bat '''semgrep ci '''
+        powershell '''semgrep ci '''
       }
     }
   }
