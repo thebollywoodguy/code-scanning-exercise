@@ -1,4 +1,6 @@
 # Welcome to the Enable code scanning using CodeQL exercise!
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthebollywoodguy%2Fcode-scanning-exercise.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthebollywoodguy%2Fcode-scanning-exercise?ref=badge_shield)
+
 
 This exercise checks your knowledge on enabling code scanning with CodeQL on a GitHub repository. It is automatically graded via a workflow once you have completed the instructions.
 
@@ -66,3 +68,7 @@ If you are stuck with a step in the exercise or the grading workflow does not au
 The troubleshooter will either display useful information to help you understand what you might have done wrong in your exercise or redirect you to the documentation relevant to your exercise to help you out.
 
 See [Running a workflow on GitHub](https://docs.github.com/en/actions/managing-workflow-runs/manually-running-a-workflow#running-a-workflow) if you need assistance.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fthebollywoodguy%2Fcode-scanning-exercise.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fthebollywoodguy%2Fcode-scanning-exercise?ref=badge_large)
